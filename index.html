@@ -14,6 +14,8 @@
     <meta name="keywords" content="Berserk, Guts, Caska, Griffith, Projeto, Berserk projeto">
 
     <meta name="author" content="Kauê Oliveira Costa">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #card1 {
             background: url("Berserk/guts.jpg") no-repeat;
@@ -25,8 +27,9 @@
             transform: perspective(800px) rotateY(25deg);
             transition: 0.5s;
             box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.52);
-            position: relative;
-            left: 38%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
 
 
         }
@@ -60,6 +63,7 @@
             border-bottom: gold 1px solid;
             color: rgb(59, 53, 54);
             text-shadow: -1px -1px 0px rgb(255, 174, 0), -1px 1px -0px rgb(255, 0, 0), 1px -1px 0px rgb(255, 0, 0), 1px 0px 0px rgb(255, 187, 0);
+            
         }
 
         #NAV {
@@ -73,8 +77,12 @@
         }
 
         #Titulo {
-            position: absolute;
-            left: 5%;
+            display: block;
+            margin-left: 8%;
+            margin-right: auto;
+            margin-top: -30px;
+            position: relative;
+            
 
         }
 
@@ -94,7 +102,12 @@
             left: 47%;
 
         }
+
+
+    
+       
     </style>
+        
 </head>
 
 
@@ -102,17 +115,20 @@
 
 
 
-<body id="Fundo" style="height:100%; width:99%;max-width: 99%;">
+<body id="Fundo">
+    
     <!--!!!!!!!!!!Cabeçalho da Pagina-->
     <div id="Cabecalho">
         <header>
             <div id="Logo">
-                <img src="Berserk/Marca.png" height="50px" style="position: absolute;top:20px">
+                <img src="Berserk/Marca.png" height="50px" style="display: block;
+                margin-left: 20px;position: relative;top:20px">
             </div>
             <div id="Titulo">
                 <h1><i>Berserk-Projeto</i></h1>
             </div>
-            <h4 style="color: rgb(0, 0, 0);position: relative;left: 80%;">Feito por: Kauê Oliveira</h4>
+            <h4 style="color: rgb(0, 0, 0);display: block;
+            margin-left: 80%;top: 20px;position: absolute;">Feito por: Kauê Oliveira</h4>
 
 
 
@@ -191,12 +207,15 @@
                                             ele.</mark></p>
                                 </td>
                             </tr>
+                            
                             <tr>
                                 <td>
-                                    <img src="Berserk/imagemguts.jpg" alt="Imagem de Guts" title="Guts" height="200px"
-                                        style="position: relative;left: 35%;">
+                                    <img src="Berserk/imagemguts.jpg" alt="Imagem de Guts" title="Guts" style="height: 200px;display: block;
+                                    margin-left: auto;
+                                    margin-right: auto">
                                 </td>
                             </tr>
+                        
                         </tbody>
 
                     </table>
@@ -235,7 +254,9 @@
                         <tr>
                             <td>
                                 <img src="Berserk/Casca.jpg" alt="Imagem de Casca" title="Casca" height="200px"
-                                    style="position: relative;left: 35%;">
+                                    style="display: block;
+                                    margin-left: auto;
+                                    margin-right: auto">
                             </td>
                         </tr>
                 </div>
@@ -270,7 +291,9 @@
                         <tr>
                             <td>
                                 <img src="Berserk/Griffith.jpg" alt="Imagem de Griffith" title="Griffith" height="200px"
-                                    style="position: relative;left: 35%;">
+                                    style="display: block;
+                                    margin-left: auto;
+                                    margin-right: auto">
                             </td>
                         </tr>
                 </div>
